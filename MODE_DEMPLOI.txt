@@ -1,0 +1,19 @@
+========================================================
+  DÉPLOYER LES 196 CHANSONS SUR GITHUB (11 rap/RnB ajoutés)
+========================================================
+NOUVEAU : 11 titres ajoutés (extraits 30 s, 96 kbps)
+  Tiakola x Dave, Dadju & Tayc, The Shin Sekaï, Vegedream & Tayc,
+  Marwa Loud, Naza ft. Niska, Heuss L'Enfoiré ft. JuL, SDM (BBL),
+  MK (CAD), Koba LaD, JuL.
+  (Lartiste - Ça me va : fichier reçu corrompu/incomplet -> NON inclus)
+
+OPTION A (simple) : site_blindtest_196_direct.zip
+  Décompressez -> index.html + 196 .mp3 + .nojekyll + README.md
+  GitHub : supprimez les anciens fichiers, uploadez tout à la
+  RACINE en 2-3 lots, commit. Ctrl+F5 -> 196 chansons.
+
+OPTION B (parts) :
+  Windows : copy /b depot196.tar.gz.part00 + ...part01 + ...part02 + ...part03 depot196.tar.gz
+  Mac/Linux : cat depot196.tar.gz.part0* > depot196.tar.gz
+  Puis : tar -xzf depot196.tar.gz
+========================================================
